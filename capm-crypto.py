@@ -14,7 +14,7 @@ import numpy as np
 import plotly.io as pio
 pio.renderers.default = 'browser'
 
-client = Client('vLvWS0vQx8jTpdbkkwBhvFAmjITDsikTemQ8Im2MCDUiOtUsHddecnvS8RNLQQVm', 'K6e853q6oV9zlY0pGdOj7UFYi6ewHecoL25vu6NVRp45DrL8o471LVtR23sixfDr  ')
+client = Client('private', 'public  ')
 
 info = client.get_all_tickers()
 #select symbols // return a list with the returns the 20 cryptos with the highest volumes in 
